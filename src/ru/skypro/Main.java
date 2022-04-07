@@ -3,7 +3,7 @@ package ru.skypro;
 public class Main {
 
     public static void main(String[] args) {
-        // Задание 1
+        // Task 1
         int a = 1;
         while (a < 11){
             System.out.print(a + " ");
@@ -17,7 +17,7 @@ public class Main {
         }
         System.out.print("\n");
 
-        // Задание 2
+        // Task 2
         int Friday = 7;
         for (int c = 1; c <= 31; c++){
             if (c == Friday){
@@ -26,7 +26,7 @@ public class Main {
             }
         }
 
-        // Задание 3
+        // Task 3
         int startComet = 1822;
         for (int i = 0; i <= 2122; i = i + 79){
             if (i >= startComet){
