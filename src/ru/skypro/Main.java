@@ -34,5 +34,29 @@ public class Main {
             }
         }
 
+        // Task 4
+        String output;
+        for (int i = 1; i <= 30; i++) {
+            output = i + ": ";
+            if (i % 3 == 0) {
+                output = output + "ping ";
+            }
+            if (i % 5 == 0) {
+                output = output + "pong ";
+            }
+            System.out.println(output);
+        }
+
+        // Task 5
+        int i = 10;
+        int numOne = 0;
+        int numTwo = 1;
+        while (i > 0){
+            System.out.print(numOne + " " + numTwo + " ");
+            numOne = numOne + numTwo;
+            numTwo = numOne + numTwo;
+            i = i -2;
+        }
+
     }
 }
